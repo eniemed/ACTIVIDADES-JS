@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+        <title>El primer script</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"></script> 
+        
+    </head>
+    <body>
+        <style>
+            #recetas {
+                font-size: larger;
+            }
+        </style>
+
+        <ol id="recetas">
+
+        </ol>
+
+        <p>ID: <input id="id" type="number" name="id" required min="1" max="4"><br></p>
+
+        <p><button onclick="eliminarReceta()">Borrar</button></p>
+        
+        <script src="codigo5.js"></script>
+    </body>
+</html>
