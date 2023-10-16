@@ -760,6 +760,33 @@ PONER VARIABLES EN INGLÉS
         console.log("El correo electrónico no es válido.");
         }
         */
+
+        //--------------------------------------------------------------------------------------------
+        //---------------------------------------- USOS DE MAPAS -------------------------------------
+        //--------------------------------------------------------------------------------------------
+
+        const valor = mapa.get('clave1'); // Retorna 'valor1'
+
+
+        const existe = mapa.has('clave1'); // Retorna true si encuentra el valor
+        
+        
+        mapa.delete('clave1'); // Elimina la entrada con clave 'clave1'
+        
+        
+        const cantidad = mapa.size; // Retorna la cantidad de entradas en el mapa
+        
+        
+        const claves = mapa.keys(); // Retorna un iterador de las claves
+        
+        
+        const valores = mapa.values(); // Retorna un iterador de los valores
+        
+        
+        const entradas = mapa.entries(); // Retorna un iterador de las entradas
+        
+        
+        mapa.set('clave1', 'valor1'); // Agregar una entrada al mapa
        
 
     </script>
